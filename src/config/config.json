@@ -1,12 +1,8 @@
 {
-    "cloud9": {
-        "username": "trainerbill",
-        "workspace": "training2017"
-    },
     "paypalRestConfig": {
         "mode": "sandbox",  // sandbox || live
-        "client_id": "AQzwHJt9jZAyQbf-DnaqZefvbTCMammV7ZFsnW23thr9qUQX9RGMgSVbzRjxXTAODKjh2W0k6Ei4Q2m9",
-        "client_secret": "EGo6tHB30V0ORQE1pFmr1hrsURQdXOgEJla9Ro5zjoAwyT0An3ddyqIYL836EOVS5XjSvmw_qwEEMsgd"
+        "client_id": "Ad3NzM6j46kMX4klm9NRun8ilKunmncjz9jfPTiYp47gMuM0NR3yi6mrCWRgoL4Q3_3dcIGlp8oohZS9",
+        "client_secret": "EJLagL_aV84L6IGo6S9THGOBPklPqZSGaDwYfGg7ynjBdTPg7saDASNfl25jBLDtYlv_gZ9vOvGvT5qG"
     },
     "paypalClassicConfig": {
         "username": "seller_api1.awesome.com",
@@ -16,9 +12,9 @@
     },
     "braintreeConfig" : {
         "environment": "Sandbox",  //  Sandbox || Production
-        "merchantId": "wkqn2r5yxbvdgs4r",
-        "publicKey": "m3zd8fgjyjw2p7yr",
-        "privateKey": "ae3a67109fef1965a922d89553962e80"
+        "merchantId": "7wjhf8fdygg269zw",
+        "publicKey": "wmcd8tmh4fx6j8y4",
+        "privateKey": "32e9dc99df02791e641a275b2b7c7b9c"
     },
     "middleware": {
         "appsec": {
