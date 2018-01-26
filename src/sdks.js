@@ -12,8 +12,8 @@ export let btGateway = braintree.connect({
 
 paypal.configure({
     'mode': 'sandbox', //sandbox or live 
-    'client_id': 'EBWKjlELKMYqRNQ6sYvFo64FtaRLRR5BdHEESmha49TM',
-    'client_secret': 'EO422dn3gQLgDbuwqTjzrFgFtaRLRR5BdHEESmha49TM'
+    'client_id': 'Ad3NzM6j46kMX4klm9NRun8ilKunmncjz9jfPTiYp47gMuM0NR3yi6mrCWRgoL4Q3_3dcIGlp8oohZS9',
+    'client_secret': 'EJLagL_aV84L6IGo6S9THGOBPklPqZSGaDwYfGg7ynjBdTPg7saDASNfl25jBLDtYlv_gZ9vOvGvT5qG'
 });
 export let paypalRest = paypal;
 

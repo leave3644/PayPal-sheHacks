@@ -3,7 +3,6 @@ import path from 'path';
 import kraken from 'kraken-js';
 import braintree from 'braintree';
 import paypal from 'paypal-rest-sdk';
-import PayPal from 'paypal-classic-api';
 
 
 let app = express();
@@ -19,11 +18,7 @@ let krakenOpts = {
         let restConfig = config.get('paypalRestConfig');
         paypal.configure(restConfig);
         config.set('paypalRest', paypal);
-
-        let classicConfig = config.get('paypalClassicConfig');
-        let paypalClassic = new PayPal(classicConfig);
-        config.set('paypalClassic', paypalClassic);
-
+        
         callback(null, config);
     }
 };
